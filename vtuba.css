@@ -1,0 +1,167 @@
+body {
+    color: #9e244b;
+    font-family: Verdana;
+    background-image: url("https://64.media.tumblr.com/5d57e71d6961e1b77d7196ce26120491/7cf915f60095705b-e7/s75x75_c1/6bd3b44fa080ba7e6725c4a62d033378abb15a52.png");
+    background-repeat: repeat;
+    background-color: #ead3d5;
+     font-size: 18px;
+}
+
+a {
+  color: #bf0430;
+  font-size: 20px;
+}
+
+hr {
+  color: #bf0430;
+
+}
+
+.left {
+   width: 155px;
+    height: 350px;
+    background-color: #fff0f5;
+     border-radius: 50px;
+    border: 3px #fa8466 solid;
+    position: absolute;
+  top: 150px;
+  left: 450px;
+  margin: auto;
+  overflow:hidden;
+  border-width:8px;
+border-style:solid;
+ z-index: 0;
+ padding:10px;
+}
+
+.left_bottom {
+   width: 250px;
+    height: 250px;
+    background-color: #fae1e5;
+     border-radius: 50px;
+     border: 2px #d98175 solid;
+    position: absolute;
+  top: 550px;
+  left: 480px;
+  overflow:hidden;
+ z-index: 0;
+ transform: rotate(-20deg);
+}
+
+
+.mid {
+   width: 360px;
+    height: 580px;
+    background-color: #ffe8e3;
+     border-radius: 50px;
+    border: 3px #be002f solid;
+    position: absolute;
+  top: 150px;
+  left: 650px;
+  margin: auto;
+  overflow:hidden;
+  border-width:8px;
+border-style:solid;
+ z-index: 0;
+ padding:19px;
+}
+
+.right_top {
+   width: 200px;
+    height: 200px;
+    background-color: #fae1e5;
+     border-radius: 50px;
+     border: 2px #d98175 solid;
+    position: absolute;
+  top: 140px;
+  left: 990px;
+  overflow:hidden;
+ z-index: 0;
+ transform: rotate(20deg);
+}
+
+.right_bottom {
+   width: 140px;
+    height: 360px;
+    background-color: #fae9ea;
+     border-radius: 20px;
+    border: 2px #d98175 solid;
+    position: absolute;
+  top: 380px;
+  left: 1075px;
+  margin: auto;
+  overflow:scroll;
+  border-width:8px;
+border-style:solid;
+ z-index: 0;
+ padding:10px;
+}
+
+.verybottom {
+   width: 470px;
+    height: 20px;
+    background-color: #fff2f5;
+     border-radius: 15px;
+    border: 4px #ff8a99 solid;
+    position: absolute;
+  top: 800px;
+  left: 680px;
+  margin: auto;
+  overflow:hidden;
+border-style:solid;
+ z-index: 0;
+ padding:5px
+}
+.verytop {
+   width: 470px;
+    height: 20px;
+    background-color: #fff2f5;
+     border-radius: 15px;
+    border: 4px #ff8a99 solid;
+    position: absolute;
+  top: 100px;
+  left: 520px;
+  margin: auto;
+  overflow:hidden;
+border-style:solid;
+ z-index: 0;
+ padding:5px
+
+}
+
+.peengee {
+  height:500px;
+  z-index:-999;
+  top:100px;
+  left:1170px;
+   position: absolute;
+}
+
+.rotated {
+  transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
+
+
+
+
+div.gallery {
+  margin: 6px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+ width=100%;
+  object-fit: cover;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
